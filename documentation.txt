@@ -1,0 +1,15 @@
+app.js is the main file to start the backend project 
+src folder all the backend js files in it.
+models folder- consist of mongodb schema init
+routes folder- consist of all the routes
+controllers folder- consist of all the member function
+
+API flow
+
+/api/company [get] --  company name in decreasing order
+/api/company [post] -- post company data
+
+/api/employee?name [get] -- search employee data with company name
+/api/employee [post] -- post employee data
+
+/api/comapny/search?name [get] -- search company data
